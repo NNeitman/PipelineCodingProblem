@@ -1,15 +1,20 @@
 # Pipeline Coding Problem Solution
 Author: Nathan Neitman
 
-# Usage
 
 ## Intallation
 1. Have Python 3.X with pip installed and part of your PATH
 2. `pip3 install -r requirements.txt && pip3 install -r requirements-test.txt`
 
-## Usage Examples
+## Usage
 
 ### Containerized CLI
+
+#### Build
+
+1. `docker build -t user_data_pipeline --rm .`
+2. `docker run -it --name user_data_pipeline_cli --rm user_data_pipeline`
+
 #### Single File:
 #### Multiple Files:
 
