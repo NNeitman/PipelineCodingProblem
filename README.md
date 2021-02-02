@@ -15,7 +15,10 @@ Author: Nathan Neitman
 2. `docker run -it --name user_data_pipeline_cli --rm user_data_pipeline` (Will remove the container after running)
 
 #### Single File:
+- TODO
+
 #### Multiple Files:
+- TODO
 
 ### Python CLI
 
