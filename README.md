@@ -89,3 +89,4 @@ Example Output:
 - Add option to pull files from remote server
 - list ids are not very useful in their current state for outputs that come from multiple user list files, use something better (maybe UUID?)
 - Prune up exports per module to be only the necessities
+- Consider business cases for partial failures
