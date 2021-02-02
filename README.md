@@ -4,15 +4,15 @@ Author: Nathan Neitman
 # Usage
 
 ## Intallation
-- Have Python 3.X installed and part of your PATH
-- pip3 install -r requirements.txt
+1. Have Python 3.X with pip installed and part of your PATH
+2. `pip3 install -r requirements.txt && pip3 install -r requirements-test.txt`
 
 ## Examples
 
 ### Containerized CLI
 - TODO
 
-### CLI Python
+### Python CLI
 
 #### Single File:
 ```sh 
