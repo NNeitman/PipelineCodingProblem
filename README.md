@@ -4,16 +4,15 @@ Author: Nathan Neitman
 
 ## Intallation
 1. Have Python 3.X with pip installed and part of your PATH
-2. `pip3 install -r requirements.txt && pip3 install -r requirements-test.txt`
-
+2. `pip3 install -r requirements.txt && pip3 install -r requirements-test.txt` 
 ## Usage
 
 ### Containerized CLI
 
 #### Build
 
-1. `docker build -t user_data_pipeline --rm .`
-2. `docker run -it --name user_data_pipeline_cli --rm user_data_pipeline`
+1. `docker build -t user_data_pipeline --rm .` (Will remove intermediate container layer artifacts)
+2. `docker run -it --name user_data_pipeline_cli --rm user_data_pipeline` (Will remove the container after running)
 
 #### Single File:
 #### Multiple Files:
