@@ -1,6 +1,6 @@
 import click, sys, logging
 from os import path
-from services.pipeline_data_reader import import_files_to_export_format_json 
+from services.pipeline import import_files_to_export_format_json 
 from errors import NoFileGivenError, PIPELINE_ERROR_MESSSAGE_BASE
 
 logger = logging.getLogger(__name__)

@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "pipeline_data_reader"
+        "user_data_pipeline"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,

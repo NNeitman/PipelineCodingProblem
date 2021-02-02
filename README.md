@@ -7,10 +7,11 @@ Author: Nathan Neitman
 1. Have Python 3.X with pip installed and part of your PATH
 2. `pip3 install -r requirements.txt && pip3 install -r requirements-test.txt`
 
-## Examples
+## Usage Examples
 
 ### Containerized CLI
-- TODO
+#### Single File:
+#### Multiple Files:
 
 ### Python CLI
 
