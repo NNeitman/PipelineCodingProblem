@@ -3,9 +3,10 @@
 
 name: Python application
 
+env: 
+  default_branch: main
+
 on:
-  env: 
-    default_branch: main
   push:
     branches: [ $default_branch ]
   pull_request:
